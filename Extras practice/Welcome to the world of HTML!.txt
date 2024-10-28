@@ -1,0 +1,89 @@
+Welcome to the world of HTML! Let's start with the basics. HTML (Hypertext Markup Language) is the standard language used to create web pages. HTML uses **tags** to structure content. Tags are written within angle brackets, like `<tag>`. Most tags have an opening tag (`<tag>`) and a closing tag (`</tag>`), though some are self-closing.
+
+Here are some essential HTML tags to get you started:
+
+### 1. **The Basic Structure of an HTML Document**
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Page Title</title>
+  </head>
+  <body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a paragraph of text.</p>
+  </body>
+</html>
+```
+
+- `<!DOCTYPE html>`: Declares the document as an HTML5 document.
+- `<html>`: The root element of an HTML page.
+- `<head>`: Contains meta-information about the document (like title, styles, or scripts).
+- `<title>`: Sets the title of the page (displayed on the browser tab).
+- `<body>`: Contains the visible content of the web page.
+
+### 2. **Common Tags**
+- **Headings**: Use headings to define titles. There are six levels of headings from `<h1>` (largest) to `<h6>` (smallest).
+  ```html
+  <h1>Main Heading</h1>
+  <h2>Sub Heading</h2>
+  ```
+  
+- **Paragraph**: The `<p>` tag is used for paragraphs.
+  ```html
+  <p>This is a paragraph.</p>
+  ```
+
+- **Links**: Use the `<a>` tag to create a hyperlink.
+  ```html
+  <a href="https://www.example.com">Visit Example</a>
+  ```
+
+- **Images**: The `<img>` tag is used to insert images. It’s a self-closing tag and uses the `src` attribute to specify the image source.
+  ```html
+  <img src="image.jpg" alt="Image description">
+  ```
+
+- **Lists**: HTML supports two types of lists:
+  - **Ordered list** (numbered): Uses the `<ol>` tag.
+    ```html
+    <ol>
+      <li>First item</li>
+      <li>Second item</li>
+    </ol>
+    ```
+  - **Unordered list** (bulleted): Uses the `<ul>` tag.
+    ```html
+    <ul>
+      <li>Item one</li>
+      <li>Item two</li>
+    </ul>
+    ```
+
+- **Bold and Italics**:
+  - **Bold** text: Use the `<strong>` or `<b>` tag.
+    ```html
+    <strong>This is bold text</strong>
+    ```
+  - **Italic** text: Use the `<em>` or `<i>` tag.
+    ```html
+    <em>This is italic text</em>
+    ```
+
+### 3. **Attributes**
+Tags can have attributes that provide additional information. For example:
+```html
+<a href="https://example.com" target="_blank">Link</a>
+```
+- `href`: Specifies the URL.
+- `target="_blank"`: Opens the link in a new tab.
+
+### 4. **Comments**
+You can add comments in your HTML code, which won't be visible on the webpage:
+```html
+<!-- This is a comment -->
+```
+
+---
+
+This should be enough to start building simple web pages. Let me know if you need more details on any specific topic!
